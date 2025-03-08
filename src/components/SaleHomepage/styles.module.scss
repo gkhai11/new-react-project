@@ -31,6 +31,6 @@
     .boxImage {
         @include flex_box_custom(center, center, 0px);
 
-        width: 100%;
+        width: 300px;
     }
 }

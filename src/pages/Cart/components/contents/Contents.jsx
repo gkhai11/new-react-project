@@ -85,7 +85,7 @@ function Contents() {
                         <div className={boxFooter}>
                             <div className={boxCoupon}>
                                 <input type='text' placeholder='Coupon code' />
-                                <Button content={'OK'} isPriamry={false} />
+                                <Button content={'OK'} isPrimary={false} />
                             </div>
 
                             <div className={boxBtnDelete}>
@@ -93,7 +93,7 @@ function Contents() {
                                     content={
                                         <div>&#128465; CLEAR SHOPPING CART</div>
                                     }
-                                    isPriamry={false}
+                                    isPrimary={false}
                                     onClick={handleDeleteCart}
                                 />
                             </div>

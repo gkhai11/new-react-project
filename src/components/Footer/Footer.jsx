@@ -35,7 +35,7 @@ function MyFooter() {
             </div>
 
             <div style={{ textAlign: 'center', marginTop: '20px' }}>
-                Copyright © 2024 HLTCD theme. Created by HLTCD
+                Copyright © 2024 by PhamGiaKhai.
             </div>
         </div>
     );

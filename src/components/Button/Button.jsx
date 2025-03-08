@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 function Button({
     content,
-    isPriamry = true,
+    isPrimary = true,
     customClassname = false,
     ...props
 }) {
@@ -11,8 +11,8 @@ function Button({
     return (
         <button
             className={classNames(btn, {
-                [primaryBtn]: isPriamry,
-                [secondaryBtn]: !isPriamry,
+                [primaryBtn]: isPrimary,
+                [secondaryBtn]: !isPrimary,
                 [customClassname]: customClassname
             })}
             {...props}

@@ -138,7 +138,7 @@ function Login() {
                         ? 'Already have an account?'
                         : 'Don’t have an account?'
                 }
-                isPriamry={false}
+                isPrimary={false}
                 style={{ marginTop: '10px' }}
                 onClick={handleToggle}
             />

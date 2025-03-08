@@ -25,7 +25,7 @@ function WishList() {
 
             <div className={boxBtn}>
                 <Button content={'VIEW WISHLIST'} />
-                <Button content={'ADD ALL TO CART'} isPriamry={false} />
+                <Button content={'ADD ALL TO CART'} isPrimary={false} />
             </div>
         </div>
     );

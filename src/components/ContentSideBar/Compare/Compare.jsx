@@ -10,7 +10,7 @@ function Compare() {
         <div className={container}>
             <div className={boxContent}>
                 <HeaderSideBar
-                    icon={<TfiReload style={{ fontSize: '30px' }} />}
+                    icon={<TfiReload style={{ fontSize: '25px' }} />}
                     title='COMPARE'
                 />
                 <ItemProduct />
